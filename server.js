@@ -9,7 +9,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
-const User = require("./model/User");
+const User = require('./models/User');
 
 const app = express();
 app.use(cors());
