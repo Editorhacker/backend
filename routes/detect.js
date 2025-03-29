@@ -9,7 +9,7 @@ const upload = require("../middleware/multerConfig");
 const router = express.Router();
 
 // ✅ MongoDB Connection
-mongoose.connect("mongodb://localhost:27017/AI-Detector", {
+mongoose.connect("mongodb+srv://detect:detect@ai.tmjbl6h.mongodb.net/AI-Detector", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
